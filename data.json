@@ -1,0 +1,19 @@
+{
+  "mode": "spa",
+  "root": "#pidRoot",
+  "loaderRoot": "#pidLoader",
+  "loader": "pig-loader.html",
+  "loaderTiming": 400,
+  "loaderFadeDuration": 300,
+  "defaultRoute": "/",
+  "routes": {
+    "/": {
+      "file": "pages/screen1.html",
+      "title": "Home — LEO Mobile"
+    },
+    "/screen2": {
+      "file": "pages/screen2.html",
+      "title": "Settings Screen — LEO Mobile"
+    }
+  }
+}
